@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.issue.field_at_issue_cover
+    - field.field.node.issue.field_at_issue_link
+    - node.type.issue
+  module:
+    - user
+id: node.issue.teaser
+targetEntityType: node
+bundle: issue
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_at_issue_cover: true
+  field_at_issue_link: true

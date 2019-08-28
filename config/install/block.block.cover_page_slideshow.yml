@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.at_view_cover_page_slideshow
+  module:
+    - views
+  theme:
+    - arrowtrade
+id: cover_page_slideshow
+theme: arrowtrade
+region: slideshow
+weight: 0
+provider: null
+plugin: 'views_block:at_view_cover_page_slideshow-block_1'
+settings:
+  id: 'views_block:at_view_cover_page_slideshow-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

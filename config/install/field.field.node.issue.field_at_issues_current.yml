@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_at_issues_current
+    - node.type.issue
+id: node.issue.field_at_issues_current
+field_name: field_at_issues_current
+entity_type: node
+bundle: issue
+label: 'Current issue'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Current
+  off_label: 'Off'
+field_type: boolean
